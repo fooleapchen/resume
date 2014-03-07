@@ -14,10 +14,10 @@
   MAIN
 \*------------------------------------*/
 html{
-    color:#1f3014;
-    font-family: "Lucida Grande",Verdana,sans-serif;
     min-height:100%;
     background: #FFF;
+    color:#1f3014;
+    font-family: "Lucida Grande",Verdana,sans-serif;
 }
 .wrapper{
   margin-top:1em;
@@ -39,7 +39,7 @@ header blockquote{
 
 nav{
     display:none; /* navigation here is overdone and I don't know how to make it look beautiful */
-    margin-top:10px
+    margin-top:10px;
 }
 
 nav ul{
@@ -47,9 +47,9 @@ nav ul{
 }
 
 nav ul a{
-    border-bottom:1px solid #4080c4;
     display:block;
     width:100%;
+    border-bottom:1px solid #4080c4;
 }
 nav ul a:hover, a i.icon-li{
     border:none;
@@ -67,21 +67,21 @@ a, a:visited{
 }
 
 address{
-    font-family:"Georgia", "Times New Roman", serif;
     font-style:italic;
+    font-family:"Georgia", "Times New Roman", serif;
 }
 
 address span {
-    clear:right;
     float:right;
+    clear:right;
     padding-left:20px;
     text-align:right;
 }
 
 blockquote{
     color:#595959;
-    font-style:italic;
     text-indent:0;
+    font-style:italic;
 }
 
 address,h2,h3{
@@ -101,11 +101,11 @@ section{
 }
 
 .column{
-    background:#4080c4;
-    width:10%;
-    height:0.5em;
     float:left;
     margin: 0.5em 0 0.5em -12%;
+    width:10%;
+    height:0.5em;
+    background:#4080c4;
 }
 
 abbr{
@@ -127,14 +127,14 @@ abbr{
     line-height:26px;
 }
 #bio li span{
-    width: 25%;
     float: left;
-    text-align: right;
     margin: 0px 0px 0px -30%;
+    width: 25%;
+    text-align: right;
 }
 #tech li{
-    list-style-type:none;
     margin:0;
+    list-style-type:none;
 }
 #tech p, #edu p{
     line-height:1.8em;
@@ -158,10 +158,10 @@ abbr{
   margin-left:-7%;
 }
 .up13, .ub13{
-  margin-left:-4.5%
+  margin-left:-4.5%;
 }
 .up14, .ub14{
-  margin-left:-2%
+  margin-left:-2%;
 }
 .tlcolor{
   display: block;
@@ -182,11 +182,11 @@ abbr{
   background: rgb(64,128,196);
 }
 #tll-1{
+  margin-top:-0.4em;
+  margin-left:-4.5%;
   width:2.5%;
   height:0.3em;
   border-bottom:0.1em solid #AAA;
-  margin-top:-0.4em;
-  margin-left:-4.5%;
 }
 #tl-2{
   width: 10%;
@@ -197,9 +197,9 @@ abbr{
   border-bottom:0.1em solid #AAA;
 }
 #tl-3{
-  width: 7.5%;
   margin-top:-0.4em;
   margin-left:-9.5%;
+  width: 7.5%;
   height: 0.4em;
 }
 #tll-41{
@@ -208,16 +208,16 @@ abbr{
   border-bottom:0.1em solid #AAA;
 }
 #tll-42{
-  width:5%;
-  height:0.3em;
   margin-top:-0.4em;
   margin-left:-7%;
+  width:5%;
+  height:0.3em;
   border-bottom:0.1em solid #AAA;
 }
 #tl-4{
-  width: 2.5%;
   margin-top:-0.4em;
   margin-left:-9.5%;
+  width: 2.5%;
   height: 0.4em;
   background: rgb(64,128,196);
 }
@@ -227,19 +227,19 @@ abbr{
   border-bottom:0.1em solid #AAA;
 }
 #tl-5{
-  width: 2.5%;
   margin-top:-0.4em;
   margin-left:-4.5%;
+  width: 2.5%;
   height: 0.4em;
 }
 #resume {
   clear:both;
 }
 #resume p span{
-    width: 28%;
     float: left;
-    text-align: right;
     margin: 0px 0px 0px -30%;
+    width: 28%;
+    text-align: right;
 }
 
 /*------------------------------------*\
@@ -273,7 +273,7 @@ a:link{
   CSS for tablets and narrower devices
   */
 
-@media (min-width:721px) and (max-width:960px){}
+@media (min-width:721px) and (max-width:960px){ }
 /*--- END NARROW ---*/
 
 /*------------------------------------*\
