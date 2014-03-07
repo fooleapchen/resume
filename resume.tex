@@ -1,0 +1,94 @@
+\documentclass[12pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+
+\usepackage[utf8]{inputenc}
+\usepackage[firstyear=2010,lastyear=2014]{moderntimeline}
+\tlwidth{0.6ex}
+\tlrunningwidth{0.1ex}
+\usepackage{color}
+\definecolor{blue}{RGB}{64,128,192}
+
+\usepackage[scale=0.8]{geometry}
+\setlength{\hintscolumnwidth}{2.7cm}
+\AtBeginDocument{\setlength{\maketitlenamewidth}{4.5cm}}
+%\AtBeginDocument{\recomputelengths}
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\setmainfont{XHei iOS7}
+\setsansfont{XHei iOS7}
+\setmonofont{XHei iOS7}
+
+%\usepackage[slantfont,boldfont]{xeCJK}
+%\setCJKsansfont{FZBoYaSong}
+%\setCJKmonofont{FZBoYaSong}
+%\punctstyle{Heiti}
+%\setCJKfamilyfont{FZBoYaSong}{FZBoYaSong}
+
+\firstname{陈}
+\familyname{喜龙}
+%\title{笨鸟先飞}
+\address{杭州市江干区}
+\mobile{13634109320}
+\email{fooleap@gmail.com}
+\homepage{fooleap.org}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{picture.jpg}
+\quote{愚者千虑, 必有一得}
+
+\begin{document}
+\maketitle
+
+\section{基本资料}
+
+\cvcomputer{姓名}{\small 陈喜龙}{籍贯}{\small 广东汕头}
+\cvcomputer{博客}{\small\link[http://blog.fooleap.org]{http://blog.fooleap.org}}{QQ}{\small 961989998}
+
+\section{教育背景}
+
+\tlcventry[blue]{2010.09}{2013.06}{大专}{桂林航天工业学院}{计算机网络技术}{2013年6月毕业}{}
+
+\section{实践经验}
+
+\tlcventry[blue]{2010}{0}{Linuxer}{Manjaro 用户}
+{}{}{\small 也尝试过 Ubuntu, Fedora, Arch Linux, Gentoo 等发行版, 熟悉系统的安装配置，熟练使用命令行, 了解 Shell 脚本}
+
+\tlcventry[blue]{2011}{0}{Blogger}{blog.fooleap.org}
+{}{}{\small \textbf{Fooleap's Blog} 博主, 记录生活, 分享技术, 起初使用 WordPress 搭建, 后来依赖 Jekyll 生成静态页面}
+
+\section{工作经验}
+
+\tlcventry[blue]{2010.10}{2011.06}{技术员}{青年桂航网}
+{}{}{\small 学习掌握 Web 前端开发基础知识}{}
+
+\tlcventry[blue]{2013.03}{0}{SEO 优化师}{杭州志卓信息技术有限公司}
+{}{}{\small 负责企业网站的搜索引擎优化}
+
+\tlcventry[blue]{2013}{0}{站长}{业余时间接过建站单子, 自己也做过网站}
+{}{}{\small 例: www.clzmuisc.com, WP 搭建细调; www.paobuxie.cc Jekyll 小站, 使用 Bootstrap 衍生框架}
+
+\section{兴趣爱好}
+
+\cvline{运动}{\small 喜欢慢跑, 徒步, 骑行, 最长跑步距离为 \textbf{21} 公里, 最长徒步距离为 \textbf{36} 公里}
+\cvline{技术}{\small 向往 IT 行业，对 Python, Ruby 等脚本语言感兴趣}
+\cvline{网站}{\small 知乎，豆瓣，V2EX, Ruby China, Github}
+
+\section{自我评价}
+\cvline{}{\small 日常的生活中, 性格开朗, 乐于助人, 有责任心}
+
+%\emptysection{}
+%\closesection
+%\vfill
+\begin{flushright}
+\tiny{my r\'esum\'e online}\\
+%\tiny{\color{addresscolor}\link[http://fooleap.org/resume.html]{http://fooleap.org/resume.html}}\\
+%\tiny{\today}
+\end{flushright}
+%\begin{flushleft}
+%\tiny{Powered by \textbf{\LaTeX}}
+%\end{flushleft}
+\end{document}
