@@ -132,12 +132,12 @@ abbr{
     width: 25%;
     text-align: right;
 }
-#tech li{
-    margin:0;
-    list-style-type:none;
-}
 #tech p, #edu p{
     line-height:1.8em;
+}
+#tech ul{
+  list-style-type:circle;
+  margin:-1em 0 1em 1em;
 }
 .timeline{
     float:left;
