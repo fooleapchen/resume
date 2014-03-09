@@ -68,7 +68,6 @@ a, a:visited{
 
 header #photo{
     float:right;
-    margin-right:11%;
     padding:0.2em;
     border:0.1em solid rgb(64,128,196);
 }
@@ -77,12 +76,15 @@ address{
     font-style:italic;
     font-family:"Georgia", "Times New Roman", serif;
     line-height:1.7em;
+    float:right!important;
 }
-
-address span {
+#contact{
+    float:right;
+    margin-right:0.5em;
+}
+#contact span {
     float:right;
     clear:right;
-    padding-left:20px;
     text-align:right;
 }
 
@@ -296,11 +298,18 @@ a:link{
     body{
 	font-size:0.75em;
     }
+    #fullname{
+      width:10em!important;
+    }
     header h1{
-        margin-bottom:0.25em;
+        margin-bottom:-1em;
+        font-size:2em;
     }
     header blockquote{
         margin-top:0px;
+    }
+    #photo {
+      width:5em;
     }
 }
 /*--- END MOBILE ---*/
