@@ -58,8 +58,8 @@ nav ul a:hover, a i.icon-li{
 
 h1{
     font-weight:bold;
-    font-size:3em;
-    line-height:1;
+    font-size:2.5em;
+    line-height:2em;
 }
 a, a:visited{
     color:inherit;
@@ -302,7 +302,7 @@ a:link{
       width:10em!important;
     }
     header h1{
-        margin-bottom:-1em;
+        margin-bottom:-2em;
         font-size:2em;
     }
     header blockquote{

@@ -26,7 +26,7 @@ inuitcss.com
 Page wrapper. Apply to the body where possible, as per: http://csswizardry.com/2011/01/using-the-body-element-as-a-wrapper/
 */
 .wrapper{
-	max-width:1100px;
+	max-width:900px;
 	margin:0 auto;
 	padding:0 20px;
 }
