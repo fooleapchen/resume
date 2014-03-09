@@ -246,13 +246,11 @@ abbr{
   width: 4%;
   height: 0.4em;
 }
-.hobby,.resume{
-    width:16%;
-    margin-right:1%;
-}
-#hobby p,#resume p{
-    display:inline;
-    line-height:1.5em;
+#hobby li span,#resume li span{
+    float: left;
+    margin: 0 2% 0 -30%;
+    width: 34%;
+    text-align: right;
 }
 
 /*------------------------------------*\
@@ -319,9 +317,6 @@ a:link{
         margin: 0 2% 0 -33%;
         width: 37%;
         text-align: right;
-    }
-    .hobby,.resume{
-        margin-left:-1%
     }
 }
 /*--- END MOBILE ---*/
