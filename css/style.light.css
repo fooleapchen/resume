@@ -66,9 +66,17 @@ a, a:visited{
     opacity:1; /* override inuit.css */
 }
 
+header #photo{
+    float:right;
+    margin-right:11%;
+    padding:0.2em;
+    border:0.1em solid rgb(64,128,196);
+}
 address{
+    margin-right:0!important;
     font-style:italic;
     font-family:"Georgia", "Times New Roman", serif;
+    line-height:1.7em;
 }
 
 address span {
@@ -136,8 +144,8 @@ abbr{
     line-height:1.8em;
 }
 #tech ul{
-  list-style-type:circle;
   margin:-1em 0 1em 1em;
+  list-style-type:circle;
 }
 .timeline{
     float:left;
