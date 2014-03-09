@@ -107,6 +107,7 @@
 
 % symbols like \Telefon, \Mobilefone, \Letter and \Email
 \RequirePackage{marvosym}
+\RequirePackage{fontawesome}
 
 % extended characters of T1 in .ps + other guillemets
 %\RequirePackage{ae,aecompl,aeguill}
@@ -191,12 +192,12 @@
 %-------------------------------------------------------------------------------
 % symbols used 
 \providecommand*{\listitemsymbol}{\Neutral}%{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}}
-\providecommand*{\addresssymbol}{}
-\providecommand*{\mobilesymbol}{\Mobilefone}
+\providecommand*{\addresssymbol}{\faHome~}
+\providecommand*{\mobilesymbol}{\faMobilePhone~}
 \providecommand*{\phonesymbol}{\Telefon}
 \providecommand*{\faxsymbol}{\FAX}
-\providecommand*{\emailsymbol}{\Letter}
-\providecommand*{\homepagesymbol}{{\Large\ComputerMouse}}
+\providecommand*{\emailsymbol}{\faEnvelope~}
+\providecommand*{\homepagesymbol}{{\faGlobe~}}
 
 % colors
 \definecolor{firstnamecolor}{rgb}{0,0,0}
