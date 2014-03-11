@@ -325,10 +325,7 @@ a:link{
         text-align: right;
     }
    #fork{
-      position:fixed;
-      bottom:0;
-      right:0;
-      _position:absolute;
-  }
+     display:none;
+   }
 }
 /*--- END MOBILE ---*/
