@@ -72,11 +72,11 @@ header #photo{
     border:0.1em solid rgb(64,128,196);
 }
 address{
+    float:right!important;
     margin-right:0!important;
     font-style:italic;
     font-family:"Georgia", "Times New Roman", serif;
     line-height:1.7em;
-    float:right!important;
 }
 #contact{
     float:right;
@@ -146,8 +146,8 @@ abbr{
     text-align: right;
 }
 #tech p, #edu p,#work p{
-    line-height:1.8em;
     margin-left:6%;
+    line-height:1.8em;
 }
 #tech ul{
   margin:-2% 0 1% 9%;
@@ -251,6 +251,12 @@ abbr{
     margin: 0 2% 0 -30%;
     width: 34%;
     text-align: right;
+}
+#fork{
+    position:fixed;
+    top:0;
+    left:0;
+    _position:absolute;
 }
 
 /*------------------------------------*\
