@@ -324,5 +324,11 @@ a:link{
         width: 37%;
         text-align: right;
     }
+   #fork{
+      position:fixed;
+      bottom:0;
+      right:0;
+      _position:absolute;
+  }
 }
 /*--- END MOBILE ---*/
