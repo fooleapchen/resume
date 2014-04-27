@@ -175,8 +175,11 @@ abbr{
    margin-left:-4%;
 }
 .up13, .ub13{
-   margin-left:0;
+   margin-left:-2%;
 }
+.up14, .ub14{
+   margin-left:0;
+ }
 .tlcolor{
   display: block;
   height: 0.4em;
@@ -235,7 +238,7 @@ abbr{
   height: 0.4em;
   background: rgb(64,128,196);
 }
-#tll-5{
+#tll-51{
   width:12.1%;
   height:0.3em;
   border-bottom:0.1em solid #AAA;
@@ -243,7 +246,26 @@ abbr{
 #tl-5{
   margin-top:-0.4em;
   margin-left:0;
-  width: 4%;
+  width: 3%;
+  height: 0.4em;
+  background: rgb(64,128,196);
+}
+#tll-52{
+  margin-top:-0.4em;
+  margin-left:3%;
+  width:1%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-6{
+  width:15.1%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tl-6{
+  margin-top:-0.4em;
+  margin-left:3%;
+  width: 1%;
   height: 0.4em;
 }
 #hobby li span,#resume li span{
