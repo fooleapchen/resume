@@ -14,7 +14,7 @@
 \moderncvtheme[blue]{classic}
 
 \usepackage[utf8]{inputenc}
-\usepackage[firstyear=2010,lastyear=2014]{moderntimeline}
+\usepackage[firstyear=2010,lastyear=2016]{moderntimeline}
 \tlwidth{0.6ex}
 \tlrunningwidth{0.1ex}
 \usepackage{color}
@@ -29,13 +29,14 @@
 \usepackage{xunicode}
 \usepackage{xltxtra}
 \usepackage{graphicx}
+\usepackage{fontawesome}
+\newfontfamily{\FA}{fontawesome.otf}
 
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
-\setmainfont{Georgia}
+\setmainfont{方正宋三_GBK}
 \setsansfont{XHei iOS7}
 \setmonofont{方正宋三_GBK}
-
 
 %\usepackage[slantfont,boldfont]{xeCJK}
 %\setCJKsansfont{方正宋三_GBK}
@@ -46,8 +47,8 @@
 \firstname{\textbf{陈}}
 \familyname{\textbf{喜龙}}
 %\title{笨鸟先飞}
-\address{Jianggan, Hangzhou}
-\mobile{13634109320}
+\address{澄海区莲下镇}
+\mobile{17098159697}
 \email{fooleap@gmail.com}
 \homepage{fooleap.org}
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
@@ -59,55 +60,84 @@
 
 \section{\textbf {基本资料}}
 
-\cvcomputer{姓名}{\small 陈喜龙}{籍贯}{\small 广东汕头}
-\cvcomputer{博客}{\small\link[http://blog.fooleap.org]{http://blog.fooleap.org}}{QQ}{\small 961989998}
+\cvcomputer{姓名}{\small 陈喜龙}{微信号}{\small fooleap}
+\cvcomputer{求职意向}{\small 前端开发}{QQ号}{\small 961989998}
 
 \section{\textbf {教育背景}}
 
-\tlcventry[blue]{2010.09}{2013.06}{桂林航天工业学院}{大专}{计算机网络技术}{}{}
+\tlcventry[blue]{2010/9}{2013/6}{桂林航天工业学院}{大专}{计算机网络技术}{}{}
 
-\section{\textbf {实践经验}}
+\section{\textbf {技术水平}}
 
-\tlcventry[blue]{2010}{0}{Linuxer}{Manjaro User}
-{}{}{\small 也尝试过 Ubuntu、Fedora、Arch Linux 等发行版, 熟悉系统的安装配置，熟练使用命令行, 了解 Shell 脚本}
-
-\tlcventry[blue]{2011}{0}{WebMaster}{Blogger}
-{}{}
+\tlcventry[blue]{2010}{0}{Linux}{}{}{}
   {  
     \begin{itemize}
-    \item \small Fooleap's Blog 记录生活、分享技术，采用 Jekyll 搭建，托管于 GitHub
-    \item \small \link[www.clzmuisc.com]{http://www.clzmuisc.com} 个人建站私单，采用 WordPress 搭建、模板细调
-    \item \small \link[www.paobuxie.cc]{http://www.paobuxie.cc} SEO 实践
+    \item \small 尝试过 Ubuntu、Fedora、Arch Linux 等发行版
+    \item \small 熟悉系统的安装配置，熟练使用命令行, 了解 Shell 脚本
+    \end{itemize}
+  }
+
+\tlcventry[blue]{2010}{0}{前端}{}{}{}
+  {  
+    \begin{itemize}
+    \item \small 熟悉 Photoshop、HTML、CSS、JS、jQuery 框架
+    \item \small 
     \end{itemize}
   }
 
 \section{\textbf {工作经验}}
 
-\tlcventry[blue]{2010.10}{2011.06}{技术员}{青年桂航网}
-{}{}{\small 学习掌握 Web 前端开发基础知识}{}
+\tlcventry[blue]{2011}{0}{站长}{}{}{}
+  {  
+    \begin{itemize}
+    \item \small \link[blog.fooleap.org]{http://blog.fooleap.org} 个人博客，记录生活、分享技术，采用 Jekyll 搭建，模板自制
+    \item \small \link[www.shamojin.com]{http://www.shamojin.com} 建站案例，采用 WordPress 搭建，模板自制，移动端采用 MUI
+    \end{itemize}
+  }
 
-\tlcventry[blue]{2013.03}{0}{SEO 优化师}{杭州志卓信息技术有限公司}
-{}{}{\small 负责企业网站的搜索引擎优化}
+\tlcventry[blue]{2013/03}{2014/02}{SEO 优化师}{杭州志卓信息技术有限公司}{}{}
+  {
+    \begin{itemize}
+    \item \small 负责企业站的搜索引擎优化
+    \end{itemize}
+  }
+
+\tlcventry[blue]{2014/03}{2016/01}{前端开发}{上峰集团有限公司}{}{}
+  {  
+    \begin{itemize}
+    \item \small 传统企业电子商务部门的技术岗位
+    \item \small 负责企业站的日常维护，活动页面、包装微报的制作及产品拍摄、淘宝店铺装修等
+    \end{itemize}
+  }
 
 \section{\textbf {兴趣爱好}}
 
-\cvline{运动}{\small 喜欢慢跑、徒步、骑行，跑过杭马}
-\cvline{技术}{\small 立志成为码农，对 Python、Ruby 等脚本语言感兴趣}
+\cvline{运动}{\small 喜欢慢跑、徒步、骑行，跑过半马}
+\cvline{工具}{\small Vim、Git}
 \cvline{网站}{\small \link[知乎]{http://www.zhihu.com/people/fooleap}、\link[豆瓣]{http://www.douban.com/people/fooleap}、\link[V2EX]{http://v2ex.com/member/fooleap}、\link[Ruby China]{http://ruby-china.org/fooleap}、\link[GitHub]{https://github.com/fooleap}}
 
 %\section{自我评价}
 %\cvline{}{\small 日常的生活中, 性格开朗, 乐于助人, 有责任心}
 
+
+%\begin{flushright}
+\begin{minipage}[t]{7cm}
+\flushleft
+\tiny{Powered by \textbf{\LaTeX}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{7cm}
+\flushright
+\includegraphics[width=48pt,height=48pt]{qrcode.png}\\
+\tiny{my r\'esum\'e online}
+\end{minipage}
+%\end{flushright}
+%\tiny{Powered by \textbf{\LaTeX}}\hfill
 %\emptysection{}
 %\closesection
 %\vfill
-\begin{flushright}
-\includegraphics[width=48pt,height=48pt]{qrcode.png}\\
-\tiny{my r\'esum\'e online}\\
-\tiny{\color{addresscolor}\link[http://fooleap.org/resume]{http://fooleap.org/resume}}\\
+
+%\tiny{\color{addresscolor}\link[http://fooleap.org/resume]{http://fooleap.org/resume}}\\
 %\tiny{\today}
-\end{flushright}
-%\begin{flushleft}
-%\tiny{Powered by \textbf{\LaTeX}}
-%\end{flushleft}
+
 \end{document}
