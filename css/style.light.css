@@ -17,7 +17,7 @@ html{
     min-height:100%;
     background: #FFF;
     color:#1f3014;
-    font-family: "Lucida Grande",Verdana,sans-serif;
+    font-family: "Lucida Grande",Verdana,微软雅黑,sans-serif;
 }
 .wrapper{
   margin-top:1em;
@@ -149,7 +149,7 @@ abbr{
     margin-left:6%;
     line-height:1.8em;
 }
-#tech ul{
+#tech ul,#work ul{
   margin:-2% 0 1% 9%;
   list-style-type:circle;
 }
@@ -157,27 +157,37 @@ abbr{
     float:left;
     clear:both;
     margin: 0 0 0 -12%;
+    height:2em;
+    width: 16%;
+    font-size: 80%;
+    text-align:center;
 }
 .sup, .sub{
    color:#4080c4;
    font-size:0.5em;
 }
-.ub11,.ub12,.ub13,.ub14{
+.ub11,.ub12,.ub13,.ub14,.ub15,.ub16{
    text-align:right;
 }
 .up10, .ub10{
    margin-left:-12%;
 }
 .up11, .ub11{
-   margin-left:-8%;
+   margin-left:-10%;
 }
 .up12, .ub12{
-   margin-left:-4%;
+   margin-left:-8%;
 }
 .up13, .ub13{
-   margin-left:-2%;
+   margin-left:-6%;
 }
 .up14, .ub14{
+   margin-left:-4%;
+ }
+.up15, .ub15{
+   margin-left:-2%;
+ }
+.up16, .ub16{
    margin-left:0;
  }
 .tlcolor{
@@ -198,6 +208,35 @@ abbr{
   height: 0.4em;
   background: rgb(64,128,196);
 }
+#tl-2{
+  width: 16%;
+}
+#tl-3{
+  margin-top:-0.4em;
+  margin-left:-8%;
+  width: 12%;
+  height: 0.4em;
+}
+#tl-4{
+  margin-top:-0.4em;
+  margin-left:-8%;
+  width: 4%;
+  height: 0.4em;
+  background: rgb(64,128,196);
+}
+#tl-5{
+  margin-top:-0.4em;
+  margin-left:0;
+  width: 3%;
+  height: 0.4em;
+  background: rgb(64,128,196);
+}
+#tl-6{
+  margin-top:-0.4em;
+  margin-left:3%;
+  width: 1%;
+  height: 0.4em;
+}
 #tll-1{
   margin-top:-0.4em;
   margin-left:-0.1%;
@@ -205,19 +244,10 @@ abbr{
   height:0.3em;
   border-bottom:0.1em solid #AAA;
 }
-#tl-2{
-  width: 16%;
-}
 #tll-3{
   width:4%;
   height:0.3em;
   border-bottom:0.1em solid #AAA;
-}
-#tl-3{
-  margin-top:-0.4em;
-  margin-left:-8%;
-  width: 12%;
-  height: 0.4em;
 }
 #tll-41{
   width:4%;
@@ -231,24 +261,10 @@ abbr{
   height:0.3em;
   border-bottom:0.1em solid #AAA;
 }
-#tl-4{
-  margin-top:-0.4em;
-  margin-left:-8%;
-  width: 4%;
-  height: 0.4em;
-  background: rgb(64,128,196);
-}
 #tll-51{
   width:12.1%;
   height:0.3em;
   border-bottom:0.1em solid #AAA;
-}
-#tl-5{
-  margin-top:-0.4em;
-  margin-left:0;
-  width: 3%;
-  height: 0.4em;
-  background: rgb(64,128,196);
 }
 #tll-52{
   margin-top:-0.4em;
@@ -261,12 +277,6 @@ abbr{
   width:15.1%;
   height:0.3em;
   border-bottom:0.1em solid #AAA;
-}
-#tl-6{
-  margin-top:-0.4em;
-  margin-left:3%;
-  width: 1%;
-  height: 0.4em;
 }
 #hobby li span,#resume li span{
     float: left;
