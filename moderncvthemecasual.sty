@@ -65,6 +65,7 @@
 \definecolor{familynamecolor}{rgb}{0.45,0.45,0.45}
 \definecolor{quotecolor}{rgb}{0.35,0.35,0.35}
 \definecolor{addresscolor}{rgb}{0.35,0.35,0.35}
+\definecolor{wechatcolor}{rgb}{0.35,0.35,0.35}
 % default blue color
   \definecolor{sectionrectanglecolor}{rgb}{0.25,0.50,0.75}
   \definecolor{sectiontitlecolor}{rgb}{0.20,0.40,0.65}
@@ -150,6 +151,7 @@
         \@firstfooterelementfalse%
         \ifthenelse{\isundefined{\@addresscity}}{}{~--~\@addresscity}\\\@firstfooterelementtrue}%
       \ifthenelse{\isundefined{\@mobile}}{}{\footersymbol\mobilesymbol~\@mobile\@firstfooterelementfalse}%
+      \ifthenelse{\isundefined{\@wechat}}{}{\footersymbol\wechatsymbol~\@wechat\@firstfooterelementfalse}%
       \ifthenelse{\isundefined{\@phone}}{}{\footersymbol\phonesymbol~\@phone\@firstfooterelementfalse}%
       \ifthenelse{\isundefined{\@fax}}{}{\footersymbol\faxsymbol~\@fax\@firstfooterelementfalse}%
       \ifthenelse{\isundefined{\@email}}{}{\footersymbol\emailsymbol~\emaillink{\@email}\@firstfooterelementfalse}%

@@ -193,6 +193,7 @@
 % symbols used 
 \providecommand*{\listitemsymbol}{\Neutral}%{{\fontencoding{U}\fontfamily{ding}\selectfont\tiny\symbol{'102}}}
 \providecommand*{\addresssymbol}{\faHome~}
+\providecommand*{\wechatsymbol}{\faWechat~}
 \providecommand*{\mobilesymbol}{\faMobilePhone~}
 \providecommand*{\phonesymbol}{\Telefon}
 \providecommand*{\faxsymbol}{\FAX}
@@ -204,6 +205,7 @@
 \definecolor{familynamecolor}{rgb}{0,0,0}
 \definecolor{titlecolor}{rgb}{0,0,0}
 \definecolor{addresscolor}{rgb}{0,0,0}
+\definecolor{wechatcolor}{rgb}{0,0,0}
 \definecolor{quotecolor}{rgb}{0,0,0}
 \definecolor{sectionrectanglecolor}{rgb}{0,0,0}
 \definecolor{sectiontitlecolor}{rgb}{0,0,0}
@@ -215,6 +217,7 @@
 \providecommand*{\familynamefont}{}
 \providecommand*{\titlefont}{}
 \providecommand*{\addressfont}{}
+\providecommand*{\wechatfont}{}
 \providecommand*{\quotefont}{}
 \providecommand*{\sectionfont}{}
 \providecommand*{\subsectionfont}{}
@@ -225,6 +228,7 @@
 \providecommand*{\familynamestyle}[1]{{\familynamefont\color{familynamecolor}#1}}
 \providecommand*{\titlestyle}[1]{{\titlefont\color{titlecolor}#1}}
 \providecommand*{\addresstyle}[1]{{\addressfont\color{addresscolor}#1}}
+\providecommand*{\wechattyle}[1]{{\wechatfont\color{wechatcolor}#1}}
 \providecommand*{\quotestyle}[1]{{\quotefont\color{quotecolor}#1}}
 \providecommand*{\sectionstyle}[1]{{\sectionfont\color{sectiontitlecolor}#1}}
 \providecommand*{\subsectionstyle}[1]{{\subsectionfont\color{subsectioncolor}#1}}
@@ -250,6 +254,7 @@
 \newcommand*{\phone}[1]{\def\@phone{#1}}
 \renewcommand*{\fax}[1]{\def\@fax{#1}}
 \newcommand*{\email}[1]{\def\@email{#1}}
+\newcommand*{\wechat}[1]{\def\@wechat{#1}}
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
 \newcommand*{\extrainfo}[1]{\def\@extrainfo{#1}}
 \def\@photowidth{0pt}
