@@ -20,8 +20,8 @@
 \usepackage{color}
 \definecolor{blue}{RGB}{64,128,192}
 
-\usepackage[scale=0.8,top=1cm,bottom=1cm,left=2cm,right=2cm]{geometry}
-\setlength{\hintscolumnwidth}{2.7cm}
+\usepackage[scale=0.75,top=1cm,bottom=1cm,left=1.8cm,right=2.4cm]{geometry}
+\setlength{\hintscolumnwidth}{2.4cm}
 \linespread{1.2}
 \AtBeginDocument{\setlength{\maketitlenamewidth}{4.5cm}}
 
@@ -58,56 +58,86 @@
 \quote{\textsl{愚者千虑，必有一得！}}
 
 \begin{document}
-\maketitle
+\maketitle\vspace*{0pt}
 
 \section{\textbf {基本资料}}
 
-\cvcomputer{姓名}{\small 陈喜龙}{求职意向}{\small 前端开发}
+\cvcomputer{工作年限}{\small 7 年}{求职意向}{\small 前端开发}
 \cvcomputer{GitHub}{\small \link[https://github.com/fooleap]{https://github.com/fooleap}}{博客}{\small \link[https://blog.fooleap.org]{https://blog.fooleap.org}}
 
 \section{\textbf {教育背景}}
 
 \tlcventry[blue]{2010/9}{2013/6}{桂林航天工业学院}{大专}{计算机网络技术}{}{}
 
-\section{\textbf {技术水平}}
+\section{\textbf {技能清单}}
 
-\tlcventry[blue]{2010}{0}{前端}{}{}{}
-  {  
+\tlcventry[blue]{2010}{0}{}{}{}{}
+  {
     \begin{itemize}
-    \item \small 熟练 HTML、CSS、JS
-    \item \small 熟练 Vue、Vue Router、Vuex、Electron、Element UI
-    \item \small 熟练小程序开发
+      \item \small 熟练使用 JavaScript、HTML、CSS，熟悉闭包、作用域、模块化、ES6、SASS 等，了解 TypeScript
+      \item \small 熟练使用 Vue 全家桶（Vuex、Vue Router、Vue CLI 等）、axios、Element UI、Vant、Electron 等，熟悉 webpack 相关使用方法，了解 Nuxt.js，Express
+      \item \small 熟练微信小程序开发（云开发）、Vant Weapp 等
+      \item \small 掌握常见移动端适配方案
+      \item \small 掌握 Linux 常用命令，搭建服务器等
+      \item \small 了解 Node.js、PHP、C\# 等后端技术，均做过项目
+      \item \small 掌握科学上网技能，无障碍访问 Google 和 StackOverflow 等网站
     \end{itemize}
   }
 
 \section{\textbf {工作经验}}
 
-\tlcventry[blue]{2013/03}{2014/02}{SEO 优化师}{杭州志卓信息技术有限公司}{}{}
+\tlcventry[blue]{2013/03}{2014/02}{SEO 优化师}{杭州志卓信息技术有限公司}{杭州}{}
   {
     \begin{itemize}
     \item \small 负责企业站的搜索引擎优化
     \end{itemize}
   }
 
-\tlcventry[blue]{2014/03}{2015/11}{前端开发}{上峰集团有限公司}{}{}
+\tlcventry[blue]{2014/03}{2015/11}{Web 前端}{上峰集团有限公司}{杭州}{}
   {  
     \begin{itemize}
     \item \small 负责企业站的日常维护，活动页面、包装微报的制作及产品拍摄、淘宝店铺装修等
     \end{itemize}
   }
 
-\tlcventry[blue]{2016/04}{0}{前端开发}{深圳捷胜科技有限公司}{}{}
+\tlcventry[blue]{2016/04}{0}{Web 前端}{深圳捷胜科技有限公司}{澄海}{}
   {  
     \begin{itemize}
-    \item \small 1
+    \item \small 主要负责一切前端相关的开发，及一小部分 ASP.NET 功能点的开发
     \end{itemize}
   }
 
 \section{\textbf {项目经验}}
 
-  \cvline{Disqus PHP API}{\small 利用 PHP cURL 转发 Disqus API 请求，使用 PHP 及 原生 JS 进行开发}
-  \cvline{工夫天气}{\small 天气类小程序，支持天气实况、降水预测、台风路径、日出日落潮汐预报等查询功能，使用各大平台 API}
-  \cvline{小汕公交}{\small 体验较好的实时公交小程序，使用了小程序云开发}
+\tlcventry[blue]{2017/03}{0}{Disqus PHP API}{\small \link[https://github.com/fooleap/disqus-php-api]{https://github.com/fooleap/disqus-php-api}}{284 star}{}
+  {  
+    \begin{itemize}
+    \item \small 为解决 Disqus 墙内无法使用问题，而开发的一个项目
+    \item \small 利用 PHP cURL 转发 Disqus API 请求，使用 PHP 及 原生 JS 进行开发
+    \end{itemize}
+  }
+
+\tlcventry[blue]{2019/05}{0}{工夫天气}{}{}{}
+  {  
+    \begin{itemize}
+    \item \small 天气类小程序
+    \item \small 使用各大平台 API 实现，支持天气实况、降水预测、台风路径、日出日落潮汐预报等查询功能
+    \end{itemize}
+  }
+
+\tlcventry[blue]{2019/10}{0}{小汕公交}{}{}{}
+  {  
+    \begin{itemize}
+    \item \small 体验较好的实时公交查询小程序
+    \item \small 使用了小程序云开发
+    \end{itemize}
+  }
+
+  \cvline{外贸网站开发}{\small 玩具外贸公司的宣传网站，前台双语切换，包括商品、购物车、收藏、留言等模块，负责前端开发，前台使用 jQuery、Pjax、Swiper 等，后台采用 Vue 全家桶、Element UI，前后完成二十几个网站的开发，部分包括手机站点}
+  \cvline{户籍管理系统}{\small 便于基层户籍管理人员使用，主要功能是家庭、人口的增删查改，数据的导出、导入等，主要负责前端开发，使用 Vue 全家桶、Element UI、Electron 等}
+  \cvline{展厅管理系统}{\small 负责前端开发，使用 Vue 全家桶、Ant Design Vue、Electron，项目完成一半终止}
+  \cvline{OA 平台}{\small 玩具公司及厂商的 OA 平台，负责前端开发，使用 Vue 全家桶、Element UI、vxe-table}
+  \cvline{商城平台}{\small OA 平台配套玩具商城平台小程序，负责小程序开发，使用 Vant Weapp 组件库}
 
 \section{\textbf {兴趣爱好}}
 
